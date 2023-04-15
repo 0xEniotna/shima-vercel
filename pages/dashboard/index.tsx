@@ -4,8 +4,6 @@ import Sidebar from "../../components/user-sidebar";
 import Dashboard from "../../components/dashboard";
 import { useAccount } from "wagmi";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import axios from "axios";
-import { User } from "../../interfaces";
 
 const UserDashboard: NextPage = () => {
   const { address } = useAccount();
